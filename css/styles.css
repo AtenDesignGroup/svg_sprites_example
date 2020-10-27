@@ -1,0 +1,39 @@
+.visually-hidden {
+    display: none;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.svg--icons {
+    float: left;
+    padding: 15px 0;
+}
+
+.svg--icon {
+    float: left;
+    width: 40px;
+    margin: 15px;
+}
+
+.svg--icons .icon--mail {
+    color: blue;
+}
+
+.svg--icons .icon--phone {
+    color: green;
+}
+
+.svg--icons .icon--location {
+    color: red;
+}
+
+.svg--icons svg.svg--icon:hover  {
+    color: black;
+}
+
+.attribution {
+    float: left;
+    clear: left;
+}
