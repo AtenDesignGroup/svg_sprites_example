@@ -1,39 +1,44 @@
 .visually-hidden {
-    display: none;
+  display: none;
 }
 
 svg {
-    fill: currentColor;
+  fill: currentColor;
 }
 
 .svg--icons {
-    float: left;
-    padding: 15px 0;
+  float: left;
+  padding: 15px 0;
 }
 
 .svg--icon {
-    float: left;
-    width: 40px;
-    margin: 15px;
+  float: left;
+  width: 40px;
+  margin: 15px;
+  transition: color .5s, transform .5s;
+}
+
+.svg--icon:hover {
+  transform: scale(1.1);
 }
 
 .svg--icons .icon--mail {
-    color: blue;
+  color: blue;
 }
 
 .svg--icons .icon--phone {
-    color: green;
+  color: green;
 }
 
 .svg--icons .icon--location {
-    color: red;
+  color: red;
 }
 
 .svg--icons svg.svg--icon:hover  {
-    color: black;
+  color: black;
 }
 
 .attribution {
-    float: left;
-    clear: left;
+  float: left;
+  clear: left;
 }
